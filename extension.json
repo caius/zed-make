@@ -1,0 +1,7 @@
+{
+  "name": "Make",
+  "version": "0.0.1",
+  "authors": ["Caius Durling <dev@caius.name>"],
+  "description": "Makefile syntax highlighting",
+  "repository": "https://github.com/caius/zed-lang-make"
+}
