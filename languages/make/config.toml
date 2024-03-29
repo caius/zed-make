@@ -1,4 +1,5 @@
 name = "Make"
+grammar = "make"
 path_suffixes = ["Makefile", "makefile", "GNUmakefile"]
 line_comments = ["#"]
 brackets = [
