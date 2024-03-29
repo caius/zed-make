@@ -1,6 +1,6 @@
 name = "Make"
 grammar = "make"
-path_suffixes = ["Makefile", "makefile", "GNUmakefile"]
+path_suffixes = ["makefile", "Makefile", "GNUmakefile", "OCamlMakefile", "mk", "mak"]
 line_comments = ["#"]
 brackets = [
   { start = "(", end = ")", close = true, newline = true },
