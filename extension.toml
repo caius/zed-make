@@ -1,0 +1,11 @@
+id = "make"
+name = "Make"
+description = "Makefile syntax highlighting"
+version = "0.0.1"
+schema_version = 1
+authors = ["Caius Durling <dev@caius.name>", "d1y <chenhonzhou@gmail.com>"]
+repository = "https://github.com/caius/zed-make"
+
+[grammars.make]
+repository = "https://github.com/caius/tree-sitter-make"
+commit = "b35c2714e73d2846b26061b06cda4fa56d61e3a5"
