@@ -10,3 +10,4 @@ path_suffixes = [
 ]
 line_comments = ["# "]
 brackets = [{ start = "(", end = ")", close = true, newline = true }]
+hard_tabs = true
