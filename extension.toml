@@ -3,7 +3,7 @@ name = "Make"
 description = "Makefile syntax highlighting"
 version = "1.0.0"
 schema_version = 1
-authors = ["Caius Durling <dev@caius.name>", "d1y <chenhonzhou@gmail.com>"]
+authors = ["Caius Durling <dev@caius.name>", "d1y <chenhonzhou@gmail.com>", "Marshall Bowers <elliott.codes@gmail.com>"]
 repository = "https://github.com/caius/zed-make"
 
 [grammars.make]
