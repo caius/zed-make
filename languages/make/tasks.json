@@ -1,0 +1,8 @@
+[
+  {
+    "label": "make target",
+    "command": "make -f $ZED_FILENAME $ZED_CUSTOM_target",
+    "cwd": "$ZED_DIRNAME",
+    "tags": ["make-target"]
+  }
+]
