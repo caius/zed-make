@@ -7,5 +7,5 @@ authors = ["Caius Durling <dev@caius.name>", "d1y <chenhonzhou@gmail.com>", "Mar
 repository = "https://github.com/caius/zed-make"
 
 [grammars.make]
-repository = "https://github.com/caius/tree-sitter-make"
-commit = "b35c2714e73d2846b26061b06cda4fa56d61e3a5"
+repository = "https://github.com/tree-sitter-grammars/tree-sitter-make"
+commit = "5e9e8f8ff3387b0edcaa90f46ddf3629f4cfeb1d"
