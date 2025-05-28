@@ -1,3 +1,6 @@
+;; This file is a copy of the upstream tree-sitter-make file: https://github.com/tree-sitter-grammars/tree-sitter-make/blob/main/queries/highlights.scm
+;; Except as noted below to accommodate Zed limitations.
+
 [
  "("
  ")"
@@ -59,7 +62,8 @@
  "and"
 ] @conditional
 
-"foreach" @repeat
+;; Zed doesn't support @repeat for highlighting, so move this keyword to @keyword.function
+;"foreach" @repeat
 
 [
  "define"
@@ -107,6 +111,8 @@
  "file"
  "value"
  "shell"
+ ;; Zed doesn't support @repeat for highlighting, so move this keyword to @keyword.function
+ "foreach"
 ] @keyword.function
 
 [
