@@ -2,6 +2,14 @@
 
 ## [Unreleased]
 
+### Added
+
+- `brackets.scm` file so Zed does highlighting of matched pairs of parentheses and double-quotes.
+
+### Changed
+
+- Modify [tree-sitter-grammars/tree-sitter-make](https://github.com/tree-sitter-grammars/tree-sitter-make) grammar to list `foreach` as a `@keyword.function` instead of a `@repeat` since Zed doens't recognized or highlight `@repeat`.
+
 ## [1.1.0] - 2025-03-16
 
 ### Added
