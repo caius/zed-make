@@ -4,11 +4,12 @@
 
 ### Added
 
-- `brackets.scm` file so Zed does highlighting of matched pairs of parentheses and double-quotes.
+- Add `brackets.scm` file so Zed does highlighting of matched pairs of parentheses and double-quotes. [#18](https://github.com/caius/zed-make/pull/18)
 
 ### Changed
 
-- Modify [tree-sitter-grammars/tree-sitter-make](https://github.com/tree-sitter-grammars/tree-sitter-make) grammar to list `foreach` as a `@keyword.function` instead of a `@repeat` since Zed doens't recognized or highlight `@repeat`.
+- Modify [tree-sitter-grammars/tree-sitter-make](https://github.com/tree-sitter-grammars/tree-sitter-make) grammar to list `foreach` as a `@keyword.function` instead of a `@repeat` since Zed doesn't recognized or highlight `@repeat`. [#21](https://github.com/caius/zed-make/pull/21)
+- Allow make shebangs to be highlighted [#22](https://github.com/caius/zed-make/pull/22)
 
 ## [1.1.0] - 2025-03-16
 
