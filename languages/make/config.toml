@@ -8,6 +8,7 @@ path_suffixes = [
   "mk",
   "mak",
 ]
+first_line_pattern = '^#!.*\b(?:make -f)\b'
 line_comments = ["# "]
 brackets = [{ start = "(", end = ")", close = true, newline = true }]
 hard_tabs = true
