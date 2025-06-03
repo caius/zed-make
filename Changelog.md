@@ -15,29 +15,29 @@
 
 ### Added
 
-- Add runnables for make targets
-- Add outlines
+- Add runnables for make targets [#12](https://github.com/caius/zed-make/pull/12)
+- Add outlines [#11](https://github.com/caius/zed-make/pull/11)
 
 ### Changed
 
-- Use [tree-sitter-grammars/tree-sitter-make](https://github.com/tree-sitter-grammars/tree-sitter-make) grammars
+- Use [tree-sitter-grammars/tree-sitter-make](https://github.com/tree-sitter-grammars/tree-sitter-make) grammars [#13](https://github.com/caius/zed-make/pull/13)
 
 ## [1.0.1] - 2024-04-18
 
 ### Changed
 
-- Simplified configuration
-- Removed hard_tabs settings from README
+- Simplified configuration [#4](https://github.com/caius/zed-make/pull/4)
+- Removed hard_tabs settings from README [#6](https://github.com/caius/zed-make/pull/6)
 
 ### Added
 
-- Set `hard_tabs = true` in `Make` language config
+- Set `hard_tabs = true` in `Make` language config [#5](https://github.com/caius/zed-make/pull/5)
 
 ## [1.0.0] - 2024-03-29
 
 ### Added
 
-- Make syntax highlighting support
+- Make syntax highlighting support [#3](https://github.com/caius/zed-make/pull/3)
 - Initial stable release
 - More examples for Makefile
 
