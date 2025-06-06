@@ -4,39 +4,40 @@
 
 ### Added
 
-- `brackets.scm` file so Zed does highlighting of matched pairs of parentheses and double-quotes.
+- Add `brackets.scm` file so Zed does highlighting of matched pairs of parentheses and double-quotes. [#18](https://github.com/caius/zed-make/pull/18)
 
 ### Changed
 
-- Modify [tree-sitter-grammars/tree-sitter-make](https://github.com/tree-sitter-grammars/tree-sitter-make) grammar to list `foreach` as a `@keyword.function` instead of a `@repeat` since Zed doens't recognized or highlight `@repeat`.
+- Modify [tree-sitter-grammars/tree-sitter-make](https://github.com/tree-sitter-grammars/tree-sitter-make) grammar to list `foreach` as a `@keyword.function` instead of a `@repeat` since Zed doesn't recognized or highlight `@repeat`. [#21](https://github.com/caius/zed-make/pull/21)
+- Allow make shebangs to be highlighted [#22](https://github.com/caius/zed-make/pull/22)
 
 ## [1.1.0] - 2025-03-16
 
 ### Added
 
-- Add runnables for make targets
-- Add outlines
+- Add runnables for make targets [#12](https://github.com/caius/zed-make/pull/12)
+- Add outlines [#11](https://github.com/caius/zed-make/pull/11)
 
 ### Changed
 
-- Use [tree-sitter-grammars/tree-sitter-make](https://github.com/tree-sitter-grammars/tree-sitter-make) grammars
+- Use [tree-sitter-grammars/tree-sitter-make](https://github.com/tree-sitter-grammars/tree-sitter-make) grammars [#13](https://github.com/caius/zed-make/pull/13)
 
 ## [1.0.1] - 2024-04-18
 
 ### Changed
 
-- Simplified configuration
-- Removed hard_tabs settings from README
+- Simplified configuration [#4](https://github.com/caius/zed-make/pull/4)
+- Removed hard_tabs settings from README [#6](https://github.com/caius/zed-make/pull/6)
 
 ### Added
 
-- Set `hard_tabs = true` in `Make` language config
+- Set `hard_tabs = true` in `Make` language config [#5](https://github.com/caius/zed-make/pull/5)
 
 ## [1.0.0] - 2024-03-29
 
 ### Added
 
-- Make syntax highlighting support
+- Make syntax highlighting support [#3](https://github.com/caius/zed-make/pull/3)
 - Initial stable release
 - More examples for Makefile
 
