@@ -2,6 +2,8 @@
 
 ## [Unreleased]
 
+## [1.1.1] - 2025-06-06
+
 ### Added
 
 - Add `brackets.scm` file so Zed does highlighting of matched pairs of parentheses and double-quotes. [#18](https://github.com/caius/zed-make/pull/18)
