@@ -1,5 +1,5 @@
-; ((comment) @content
-;   (#set! "language" "comment"))
+((comment) @content
+  (#set! "language" "comment"))
 
 ((shell_text) @content
   (#set! "language" "bash"))
