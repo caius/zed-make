@@ -2,7 +2,7 @@
 
 Adds `Makefile` language to [Zed][].
 
-Leans on <https://github.com/alemuller/tree-sitter-make> via <https://github.com/caius/tree-sitter-make>.
+Leans on <https://github.com/tree-sitter-grammars/tree-sitter-make> for definitions.
 
 [Zed]: https://zed.dev/
 
