@@ -2,6 +2,14 @@
 
 ## [Unreleased]
 
+### Added
+
+- Highlight comments with that extension if installed. [#27](https://github.com/caius/zed-make/pull/27)
+
+### Changed
+
+- Stop marking targets as tasks when they start with . and are uppercase. eg, `.PHONY`. [#24](https://github.com/caius/zed-make/pull/24)
+
 ## [1.1.1] - 2025-06-06
 
 ### Added
