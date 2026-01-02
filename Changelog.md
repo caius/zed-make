@@ -2,6 +2,10 @@
 
 ## [Unreleased]
 
+### Added
+
+- Highlight comments with that extension if installed. [#27](https://github.com/caius/zed-make/pull/27)
+
 ## [1.1.1] - 2025-06-06
 
 ### Added

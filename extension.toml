@@ -10,6 +10,7 @@ authors = [
   "Luke Naylor <luke@grahamnaylor.net>",
   "Igor Támara <igor.tamara@gmail.com>",
   "Michael Alexander <michael.alexander@karlstorz.com>",
+  "Donnie Adams <donnie@thedadams.com>",
 ]
 repository = "https://github.com/caius/zed-make"
 
